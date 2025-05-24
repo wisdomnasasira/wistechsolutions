@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wisetech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Wistech Solutions Logo" class="site-logo">
+                    <h2 class="logo-text">Wistech</h2>
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" id="siteSearchInput" placeholder="Search anything...">
+                <button class="btn" id="siteSearchButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to us using the form below or find us on the map.</p>
+
+            <div class="contact-container">
+                <div class="contact-form">
+                    <h2>Get in Touch</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            <div class="error-message" id="nameError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                            <div class="error-message" id="emailError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Inquiry about services">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+                            <div class="error-message" id="messageError"></div>
+                        </div>
+                        <button type="submit" id="submitBtn">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="map-container">
+                    <h2>Find Us Here</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.413702170364!2d30.12948275!3d-0.45781475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x196f7c4692750e59%3A0xc3f8e5b6c3f0f7f!2sBushenyi!5e0!3m2!1sen!2sug!4v1700000000000!5m2!1sen!2sug"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <h2>Our Contact Details</h2>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:wistechsolutions@gmail.com">wistechsolutions@gmail.com</a></p>
+                <p><i class="fas fa-phone-alt"></i> Phone: +256 701887463</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Bushenyi, Uganda</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Wisetech Solutions is dedicated to delivering high-quality IT services and innovative solutions for businesses and individuals.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: wistechsolutions@gmail.com</p>
+                <p>Phone: +256 701887463</p>
+                <p>Address: Bushenyi, Uganda</p>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p>Subscribe to our newsletter for updates on our latest products and services.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Wisetech Solutions | Designed by **Nasasira Wisdom**</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/wisetechsolutions" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://twitter.com/wisetechsolutions" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.instagram.com/wisetechsolutions" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/company/wisetechsolutions" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+    <script src="js/site-search.js"></script>
+</body>
+</html>

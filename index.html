@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisetech Solutions - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Wistech Solutions Logo" class="site-logo">
+                    <h2 class="logo-text">Wistech</h2>
+                </a>
+                </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" id="siteSearchInput" placeholder="Search anything...">
+                <button class="btn" id="siteSearchButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h1>Wistech Solutions & <br><span>Delivery</span><br> Services</h1>
+            <p class="par">
+                Wisetech Solutions is a leading private company in Western Uganda providing electronic devices and all technology<br>
+                services to the people to ease their services. Our main goal is to make sure that everyone can access whatever<br>
+                electronic device that he/she feels to own at an affordable and convenient price.
+            </p>
+            <button class="cn" id="joinUsBtn"><a href="#">JOIN US</a></button>
+
+            <div class="form">
+                <h2>Login / Sign Up</h2>
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="login">Login</button>
+                    <button class="tab-btn" data-tab="signup">Sign Up</button>
+                </div>
+                
+                <div id="loginTab" class="tab-content active">
+                    <input type="email" id="loginEmail" placeholder="Enter email here" required>
+                    <input type="password" id="loginPassword" placeholder="Enter password here" required>
+                    <button class="btnn" id="loginSubmit">Login</button>
+                    <p class="link">Don't have an account?<br><a href="#" data-tab-toggle="signup">Sign up here</a></p>
+                </div>
+
+                <div id="signupTab" class="tab-content">
+                    <input type="text" id="signupUsername" placeholder="Enter username" required>
+                    <input type="email" id="signupEmail" placeholder="Enter email here" required>
+                    <input type="password" id="signupPassword" placeholder="Create password" required>
+                    <button class="btnn" id="signupSubmit">Sign Up</button>
+                    <p class="link">Already have an account?<br><a href="#" data-tab-toggle="login">Login here</a></p>
+                </div>
+                
+                <p class="liw">Login in with</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/wisetechsolutions" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/wisetechsolutions" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/wisetechsolutions" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="mailto:wistechsolutions@gmail.com" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.linkedin.com/company/wisetechsolutions" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Wisetech Solutions is dedicated to delivering high-quality IT services and innovative solutions for businesses and individuals.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: wistechsolutions@gmail.com</p>
+                <p>Phone: +256 701887463</p>
+                <p>Address: Bushenyi, Uganda</p>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p>Subscribe to our newsletter for updates on our latest products and services.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Wisetech Solutions | Designed by <strong>Nasasira Wisdom</strong></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/wisetechsolutions" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://twitter.com/wisetechsolutions" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.instagram.com/wisetechsolutions" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/company/wisetechsolutions" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+    <script src="js/site-search.js"></script>
+
+</body>
+</html>

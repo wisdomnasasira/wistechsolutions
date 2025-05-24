@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Wisetech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Wistech Solutions Logo" class="site-logo">
+                    <h2 class="logo-text">Wistech</h2>
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" id="siteSearchInput" placeholder="Search anything...">
+                <button class="btn" id="siteSearchButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p>Welcome to **Wisetech Solutions**, your trusted partner in Information Technology and business innovation.</p>
+            <div class="content">
+                <div class="text-content">
+                    <p>
+                        At Wisetech Solutions, we provide top-notch services such as computer hardware sales, software installations, custom software development, and online IT solutions. 
+                        Our team is committed to delivering excellence, reliability, and innovation in every project.
+                    </p>
+                    <p>
+                        Our mission is to empower businesses and individuals with cutting-edge technology and reliable support, fostering growth and efficiency in a rapidly evolving digital landscape. We pride ourselves on our client-centric approach, ensuring tailor-made solutions that address specific needs and challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="services-section">
+            <h2>Our Core Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="images/1.jpg" alt="Hardware Sales" class="service-image">
+                    <h3>Computer Hardware Sales</h3>
+                    <p>Providing high-quality, reliable computer hardware components to meet your needs.</p>
+                </div>
+                
+                <div class="service-item">
+                    <img src="images/2.jpeg" alt="Software Installation" class="service-image">
+                    <h3>Software Installations</h3>
+                    <p>Expert installation services for all types of software, ensuring seamless performance.</p>
+                </div>
+                
+                <div class="service-item">
+                    <img src="images/4.jpeg" alt="Software Development" class="service-image">
+                    <h3>Software Development</h3>
+                    <p>Delivering innovative, custom-made software solutions tailored to your business.</p>
+                </div>
+                
+                <div class="service-item">
+                    <img src="images/5.jpeg" alt="Online Services" class="service-image">
+                    <h3>Online IT Services</h3>
+                    <p>Comprehensive online services including Business Registration, URA and URSB Services.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="services.html" class="cn">View All Services</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Wisetech Solutions is dedicated to delivering high-quality IT services and innovative solutions for businesses and individuals.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li> </ul>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: wistechsolutions@gmail.com</p>
+                <p>Phone: +256 701887463</p>
+                <p>Address: Bushenyi, Uganda</p>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <form id="newsletterForm">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p>Subscribe to our newsletter for updates on our latest products and services.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="currentYear"></span> Wisetech Solutions | Designed by **Nasasira Wisdom**</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/wisetechsolutions" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="https://twitter.com/wisetechsolutions" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.instagram.com/wisetechsolutions" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.linkedin.com/company/wisetechsolutions" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/services.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+    <script src="js/site-search.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "index_page",
+        "title": "Home - Wisetech Solutions",
+        "content": "Wisetech Solutions is a leading private company in Western Uganda providing electronic devices and all technology services to the people to ease their services. Our main goal is to make sure that everyone can access whatever electronic device that he/she feels to own at an affordable and convenient price. We offer delivery services. Join us for IT solutions.",
+        "url": "index.html",
+        "keywords": "home, wisetech, solutions, technology, devices, services, delivery, IT"
+    },
+    {
+        "id": "about_page",
+        "title": "About Us - Wisetech Solutions",
+        "content": "Discover the story behind Wisetech Solutions. Our mission is to provide cutting-edge IT services and support our community with accessible technology. We are passionate about innovation and dedicated to customer satisfaction.",
+        "url": "about.html",
+        "keywords": "about, company, mission, vision, innovation, customer, support"
+    },
+    {
+        "id": "services_page",
+        "title": "Our Services - Wisetech Solutions",
+        "content": "Explore the range of services offered by Wisetech Solutions, including web development, network solutions, software installation, hardware repair, and IT consulting. We tailor our services to meet your specific needs.",
+        "url": "services.html",
+        "keywords": "services, web development, network, software, hardware, repair, IT consulting, solutions"
+    },
+    {
+        "id": "contact_page",
+        "title": "Contact Us - Wisetech Solutions",
+        "content": "Reach out to Wisetech Solutions for any inquiries or support. Contact us via phone: +256 701887463 / +256 779400303, email: wistechsolutions@gmail.com, or visit our office in Bushenyi, Uganda. Send us a message through our contact form.",
+        "url": "contact.html",
+        "keywords": "contact, phone, email, address, message, support, inquiry"
+    },
+    {
+        "id": "portfolio_page",
+        "title": "Portfolio - Nasasira Wisdom | Wisetech Solutions",
+        "content": "Nasasira Wisdom's portfolio showcases expertise in web development, PHP/MySQL, HTML/CSS, C#, and project management. Highlights include an Employee Management System, School Website, and Online Bus Booking System. Skills: problem-solving, debugging, leadership. Awards and certifications are also featured.",
+        "url": "portfolio.html",
+        "keywords": "portfolio, nasasira wisdom, web development, php, mysql, html, css, c#, projects, employee management, school website, bus booking, skills, awards, certifications"
+    }
+]
